@@ -3,7 +3,6 @@
    * [ReferenceConstructingReplies Constructing replies]
    * [ReferenceRubyExtensions Ruby Extensions]
    * [ReferenceGeoIP GeoIP]
-
  * Recipes
    * [RecipeGeoLocation Location Based]
    * [RecipeWeightedRoundRobin Weighted Round Robin]
