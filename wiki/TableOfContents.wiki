@@ -1,9 +1,8 @@
  * Programmers Reference
    * [ReferenceInfoAboutRequests About requests]
    * [ReferenceConstructingReplies Constructing replies]
-   * Helpers and Plugins
-     * [ReferenceRubyExtensions Ruby Extensions]
-     * [ReferenceGeoIP GeoIP]
+   * [ReferenceRubyExtensions Ruby Extensions]
+   * [ReferenceGeoIP GeoIP]
 
  * Recipes
    * [RecipeGeoLocation Location Based]
