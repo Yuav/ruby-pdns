@@ -3,7 +3,7 @@
 
 == Constructing the Answer ==
 
-[[TableOfContents(3)]]
+<wiki:toc />
 
 Each record gets passed a Pdns::Response object containing information about the answer(s), reviewing how a new record gets created:
 
@@ -17,7 +17,7 @@ module Pdns
 end
 }}}
 
-As you see you have an ''answer'' object, this is your only avenue for affecting the response to the PDNS server.
+As you see you have an *answer* object, this is your only avenue for affecting the response to the PDNS server.
 
  * You can set a TTL for all records returned or per record
  * You can set the Type for all records return of per record
@@ -49,7 +49,7 @@ answer.qtype :A
 ||Exception Raised:||Pdns::UnknownQueryType||
 
 === Setting the Query Class ===
-At present only ''IN'' records can be returned so setting this will have little effect, it's for future use only
+At present only _IN_ records can be returned so setting this will have little effect, it's for future use only
 
 {{{
 answer.qclass :IN
@@ -71,7 +71,7 @@ answer.shuffle false
 ||Valid Values:||true, false||
 ||Exception Raised:||Pdns::InvalidShuffle||
 
- <!> For this to have any effect you need to also set ''no-shuffle=yes'' in the PDNS configuration.
+ *Note:* For this to have any effect you need to also set _no-shuffle=yes_ in the PDNS configuration.
 
 === Returning Records ===
 ==== Returning Simple Records ====
@@ -91,7 +91,7 @@ In the example above you'll be returning a Round Robin record with 2 records, ea
 ||Exception Raised:||n/a||
 
 ==== Setting Custom TTL and Type per record ====
-In some cases you'll want to set specific TTLs and Types for each record, this is possible using the same ''content'' method:
+In some cases you'll want to set specific TTLs and Types for each record, this is possible using the same _content_ method:
 
 {{{
 answer.content :MX, "10       mx1.foo.com"
@@ -106,7 +106,7 @@ Note this example sets the default after the records, this is valid the default 
 ==== Creating specific types of responses ====
 PowerDNS is a bit tricky at times, you need to insert tabs into the response in the right place, in the samples below a "\t" string indicates a tab.
 
-||'''Record Type'''||''Sample'''||
+||*Record Type*||*Sample*||
 ||:A||answer.content :A, "127.0.0.1"||
 ||:TXT||answer.content :TXT, "This is some text"||
 ||:MX||answer.content :MX, "10\tmx.foo.com"||
