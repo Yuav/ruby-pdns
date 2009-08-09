@@ -1,5 +1,5 @@
 #summary Geographical Location based Responses
-#labels recipe
+#labels Phase-UseCase
 == Geographical Location based Responses ==
 
 This is probably the most often desired use case, you have a website and some static content, you have static mirrors in several places and want to serve it to your client from their nearest mirror.
