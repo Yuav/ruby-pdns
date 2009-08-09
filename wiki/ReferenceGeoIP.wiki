@@ -19,3 +19,6 @@ Does a simple country code lookup on either ''hostname'' or ''ip address''.
         answer.content "78.xx.xx.140"
       end
 }}}
+
+
+*Note*: In order to effectively use this module you must disable caching of packets and responses by PDNS
