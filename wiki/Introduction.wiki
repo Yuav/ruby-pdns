@@ -1,4 +1,5 @@
 #summary Project Introduction
+#labels Featured
 
 = Ruby framework for Power DNS Pipe Backend =
 
