@@ -1,6 +1,5 @@
 #summary Project Introduction
 #labels Featured
-#sidebar TableOfContents
 
 = Ruby framework for Power DNS Pipe Backend =
 
