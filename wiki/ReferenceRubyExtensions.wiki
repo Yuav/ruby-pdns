@@ -33,7 +33,7 @@ The _random_ method to Arrays lets you access a single element in an array via v
 
 ==== Simple Random Extraction ====
 
-*Note:* Note you have no guarantee that the same item will not be returned more than once.
+*Note:* you have no guarantee that the same item will not be returned more than once.
 
 {{{
 [1,2,3].random          #=> 2
