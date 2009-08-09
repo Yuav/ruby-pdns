@@ -37,7 +37,7 @@ This framework allows you to do this and much more, see subjects below for furth
 
 == Programming Reference ==
  * [ReferenceInfoAboutRequests Information available about the request]
- * [:Ruby_PDNS/Programming/Answer:Constructing replies]
+ * [ReferenceConstructingReplies Constructing replies]
  * Helpers and Plugins
    * [:Ruby_PDNS/Programming/RubyExtensions:Extensions and helpers to the Ruby language]
    * [:Ruby_PDNS/Programming/GeoIP:GeoIP Functions]
