@@ -37,7 +37,7 @@ Lookups against ''static1.my.com'' will now return 3 of the 5 records and the fi
 
 Here's a graph showing the effectiveness of this technique, this is for email servers and with only 2 in a pool - a setup I did not think would work well with this approach!
 
-||<tablestyle="border: hidden; width:100%; text-align:center">[http://www.devco.net/images/weighted-balance-graph.png]||
+[http://www.devco.net/images/weighted-balance-graph.png]
 
 In this example I am managing the traffic between the Red and the Green machine, the Green machine is both farthest away to my clients and lowest spec yet it was getting the biggest volume of traffic due to the MS bug.  This was negatively impacting my clients as the server load was always 2 to 3 causing mail delivery delays.  The change was rolled out midnight, you can see the bias change from Green to Red over the next hours.
 
