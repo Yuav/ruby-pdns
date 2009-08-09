@@ -1,5 +1,5 @@
 #summary Extensions to the Ruby Language
-#labels reference
+#labels Phase-Implementation
 = Extensions to the Ruby Language =
 
 <wiki:toc />
