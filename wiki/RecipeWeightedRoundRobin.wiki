@@ -12,7 +12,7 @@ This is very hard to fix or work around as the problem is client side, we can as
    1. 2.x.x.x - this one has lots of bandwidth from the ISP we want it to get most traffic
    1. 3.x.x.x, 4.x.x.x, 5.x.x.x - they are equivalent and we just want them to get equal traffic
 
-Thanks to the windows features, if we return the first ip in the answer it '''will''' get the traffic, simple as that, so the solution is to not return it that often.
+Thanks to the windows features, if we return the first ip in the answer it *will* get the traffic, simple as that, so the solution is to not return it that often.
 
 {{{
 module Pdns
@@ -31,11 +31,11 @@ module Pdns
 end
 }}}
 
-In this sample we create an array of our 5 ip addresses, we then randomize them based on the weights supplied to the ''randomize'' method.  This randomizes the results but with a bias based on the provided weights.
+In this sample we create an array of our 5 ip addresses, we then randomize them based on the weights supplied to the _randomize_ method.  This randomizes the results but with a bias based on the provided weights.
 
 We turn off shuffling of the output so that we have good control over the order of priorities and we set custom TTLs on the answers.
 
-Lookups against ''static1.my.com'' will now return 3 of the 5 records and the first one will be in the list least often which will help in evening things out a bit, unfortunately DNS is not the best load balancing algorithm but with careful adjusting of the weights you can shift traffic around sufficiently on a site with enough clients.
+Lookups against _static1.my.com_ will now return 3 of the 5 records and the first one will be in the list least often which will help in evening things out a bit, unfortunately DNS is not the best load balancing algorithm but with careful adjusting of the weights you can shift traffic around sufficiently on a site with enough clients.
 
 Here's a graph showing the effectiveness of this technique, this is for email servers and with only 2 in a pool - a setup I did not think would work well with this approach!
 
