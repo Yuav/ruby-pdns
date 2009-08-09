@@ -40,7 +40,7 @@ This framework allows you to do this and much more, see subjects below for furth
  * [ReferenceConstructingReplies Constructing replies]
  * Helpers and Plugins
    * [ReferenceRubyExtensions Extensions and helpers to the Ruby language]
-   * [:Ruby_PDNS/Programming/GeoIP:GeoIP Functions]
+   * [ReferenceGeoIP GeoIP Functions]
 
 == Installation ==
  * todo
