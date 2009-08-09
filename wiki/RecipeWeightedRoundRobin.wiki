@@ -1,5 +1,5 @@
 #summary Weighted Round Robin based Responses
-#labels Phase-Implementation
+#labels Phase-UseCase
 
 == Weighted Round Robin based Responses ==
 
