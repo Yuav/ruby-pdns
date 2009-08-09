@@ -1,5 +1,5 @@
 #summary Weighted Round Robin based Responses
-#labels recipe
+#labels Phase-Implementation
 
 == Weighted Round Robin based Responses ==
 
