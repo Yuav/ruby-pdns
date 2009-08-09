@@ -111,3 +111,5 @@ PowerDNS is a bit tricky at times, you need to insert tabs into the response in 
 ||:SRV||answer.content :SRV, "1 0 1719 sipgw1"||
 ||:CNAME||answer.content :CNAME, "www.foo.com"||
 ||:NS||answer.content :NS, "ns1.foo.com"||
+
+#summary Constructing the Answer
