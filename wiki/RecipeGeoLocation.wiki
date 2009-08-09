@@ -1,4 +1,4 @@
-#summary Recipe/Geographical Location based Responses
+#summary Geographical Location based Responses
 #labels recipe
 == Geographical Location based Responses ==
 
