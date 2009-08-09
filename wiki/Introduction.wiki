@@ -1,0 +1,60 @@
+#Project Introduction
+
+= Ruby framework for Power DNS Pipe Backend =
+
+A lot of cases require custom DNS responses based on location, time of day, monitoring status or many other situations, traditional DNS hosting systems makes this '''very''' hard.  [http://www.powerdns.com/ PowerDNS] makes this a bit easier for the skilled hacker with it's [http://doc.powerdns.com/pipebackend-dynamic-resolution.html Pipe Backend] but the documentation and implementation details can be quite scary, what if someone made a simple framework to make this easy?  This is that framework.
+
+The simplest way to show what it does is by example, here is a record that does Geo Location based responses for ''www.your.net'':
+
+{{{
+module Pdns
+  newrecord("www.your.net", :type => :record) do |query, answer|
+    case country(query[:remoteip])
+      when "US", "CA"
+        answer.content "64.xx.xx.245"
+
+      when "ZA", "ZW"
+        answer.content "196.xx.xx.10"
+
+      else
+        answer.content "78.xx.xx.140"
+      end
+  end
+end
+}}}
+
+Place this file in ''/etc/pdns/records/www.your.net.prb'' and it would get served with full Geo capability,
+
+The language is Ruby, a number of helper functions are provided to do common things like Geo lookups, randomization and so forth and effort has been made to make it intuitive even for non programmer to write simple records, perhaps by using recipes on this site.
+
+This framework allows you to do this and much more, see subjects below for further details.
+
+== Use Cases / Recipes ==
+ * [:Ruby_PDNS/Recipe/GeoLocation:Location Based] - using Maxmind GeoIP
+ * [:Ruby_PDNS/Recipe/WeightedRoundRobin:Weighted Round Robin] - adjusting ratios of traffic to machines/sites
+ * [:Ruby_PDNS/Recipe/TimeBased:Time Base] - sending VIP customers to a low used site based on time
+
+== Programming Reference ==
+ * [:Ruby_PDNS/Programming/Request:Information available about the request]
+ * [:Ruby_PDNS/Programming/Answer:Constructing replies]
+ * Helpers and Plugins
+   * [:Ruby_PDNS/Programming/RubyExtensions:Extensions and helpers to the Ruby language]
+   * [:Ruby_PDNS/Programming/GeoIP:GeoIP Functions]
+
+== Installation ==
+ * todo
+
+== Configuration ==
+ * todo
+
+== TODO List ==
+ * Report stats, at present each instance keeps query count stats per record, but no reporting of that yet
+ * Some kind of handling of external data like monitoring data that can then be used in record logic
+ * Give each record block an id and track that id, answering ''AXFR id'' questions correctly with a per record SOA block
+ * Redirect STDOUT to /dev/null or something till we are ready to construct the answer
+ * Make components like the GeoIP capability a plugin so others can easily write and extend
+ * Provide a Caching system that modules like GeoIP can use
+
+== Release History ==
+ ||2009-08-09||Move to Google Code||
+ ||2009-08-02||First release||
