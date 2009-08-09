@@ -1,4 +1,6 @@
+#summary Weighted Round Robin based Responses
 #labels recipe
+
 == Weighted Round Robin based Responses ==
 
 It's is often the case that in a Round Robin DNS setup one machine gets too many hits, or perhaps one machine is faster than others or have more bandwidth.  Most resolvers are supposed to honor the returned order of results, but this is not always the case - especially those from Microsoft that has a bug [[http://support.microsoft.com/kb/968920 1], [http://drplokta.livejournal.com/109267.html 2], [http://blogs.technet.com/networking/archive/2009/04/17/dns-round-robin-and-destination-ip-address-selection.aspx 3]], causing most traffic to hit certain IPs.
