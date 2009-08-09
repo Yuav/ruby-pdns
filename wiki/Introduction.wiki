@@ -31,7 +31,7 @@ The language is Ruby, a number of helper functions are provided to do common thi
 This framework allows you to do this and much more, see subjects below for further details.
 
 == Use Cases / Recipes ==
- * [:Ruby_PDNS/Recipe/GeoLocation:Location Based] - using Maxmind GeoIP
+ * [:RecipeGeoLocation:Location Based] - using Maxmind GeoIP
  * [:Ruby_PDNS/Recipe/WeightedRoundRobin:Weighted Round Robin] - adjusting ratios of traffic to machines/sites
  * [:Ruby_PDNS/Recipe/TimeBased:Time Base] - sending VIP customers to a low used site based on time
 
