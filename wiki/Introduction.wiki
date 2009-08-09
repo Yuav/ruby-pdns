@@ -32,7 +32,7 @@ This framework allows you to do this and much more, see subjects below for furth
 
 == Use Cases / Recipes ==
  * [RecipeGeoLocation Location Based] - using Maxmind GeoIP
- * [:Ruby_PDNS/Recipe/WeightedRoundRobin:Weighted Round Robin] - adjusting ratios of traffic to machines/sites
+ * [RecipeWeightedRoundRobin Weighted Round Robin] - adjusting ratios of traffic to machines/sites
  * [:Ruby_PDNS/Recipe/TimeBased:Time Base] - sending VIP customers to a low used site based on time
 
 == Programming Reference ==
