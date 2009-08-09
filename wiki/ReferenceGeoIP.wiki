@@ -1,0 +1,21 @@
+#summary GeoIP Module
+#labels reference
+== GeoIP Module ==
+
+At present the GeoIP module is very limited, partly by the Ruby GeoIP module and by my personal needs.
+
+=== country ===
+Does a simple country code lookup on either ''hostname'' or ''ip address''.
+
+{{{
+    case country(query[:remoteip])
+      when "US", "CA"
+        answer.content "64.xx.xx.245"
+
+      when "ZA", "ZW"
+        answer.content "196.xx.xx.10"
+
+      else
+        answer.content "78.xx.xx.140"
+      end
+}}}
