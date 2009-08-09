@@ -3,9 +3,9 @@
 
 = Ruby framework for Power DNS Pipe Backend =
 
-A lot of cases require custom DNS responses based on location, time of day, monitoring status or many other situations, traditional DNS hosting systems makes this '''very''' hard.  [http://www.powerdns.com/ PowerDNS] makes this a bit easier for the skilled hacker with it's [http://doc.powerdns.com/pipebackend-dynamic-resolution.html Pipe Backend] but the documentation and implementation details can be quite scary, what if someone made a simple framework to make this easy?  This is that framework.
+A lot of cases require custom DNS responses based on location, time of day, monitoring status or many other situations, traditional DNS hosting systems makes this *very* hard.  [http://www.powerdns.com/ PowerDNS] makes this a bit easier for the skilled hacker with it's [http://doc.powerdns.com/pipebackend-dynamic-resolution.html Pipe Backend] but the documentation and implementation details can be quite scary, what if someone made a simple framework to make this easy?  This is that framework.
 
-The simplest way to show what it does is by example, here is a record that does Geo Location based responses for ''www.your.net'':
+The simplest way to show what it does is by example, here is a record that does Geo Location based responses for _www.your.net_:
 
 {{{
 module Pdns
@@ -24,7 +24,7 @@ module Pdns
 end
 }}}
 
-Place this file in ''/etc/pdns/records/www.your.net.prb'' and it would get served with full Geo capability,
+Place this file in _/etc/pdns/records/www.your.net.prb_ and it would get served with full Geo capability,
 
 The language is Ruby, a number of helper functions are provided to do common things like Geo lookups, randomization and so forth and effort has been made to make it intuitive even for non programmer to write simple records, perhaps by using recipes on this site.
 
@@ -51,7 +51,7 @@ This framework allows you to do this and much more, see subjects below for furth
 == TODO List ==
  * Report stats, at present each instance keeps query count stats per record, but no reporting of that yet
  * Some kind of handling of external data like monitoring data that can then be used in record logic
- * Give each record block an id and track that id, answering ''AXFR id'' questions correctly with a per record SOA block
+ * Give each record block an id and track that id, answering _AXFR id_ questions correctly with a per record SOA block
  * Redirect STDOUT to /dev/null or something till we are ready to construct the answer
  * Make components like the GeoIP capability a plugin so others can easily write and extend
  * Provide a Caching system that modules like GeoIP can use
