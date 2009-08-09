@@ -1,5 +1,5 @@
 #summary Timed Based Responses
-#labels recipe
+#labels Phase-UseCase
 == Time Based Responses ==
 
 Lets say you have multiple Datacenters and want to give your highest paying customers a URL to log in, maybe your login forms generate the url, you can do this based on Time like in this example.
