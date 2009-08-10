@@ -1,3 +1,7 @@
+ * [InstallGuide Installation Guide]
+ * Configuration
+  * [RPDNSConfigurationGuide ruby-pdns config guide]
+  * [PDNSConfigurationGuide PowerDNS config guide]
  * Programmers Reference
   * [ReferenceInfoAboutRequests About requests]
   * [ReferenceConstructingReplies Constructing replies]
