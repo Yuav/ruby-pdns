@@ -17,7 +17,7 @@
  * todo
 
 == Configuration ==
- * todo
+ * [ConfigurationGuide Configuring Ruby PDNS]
 
 == TODO List ==
  * Report stats, at present each instance keeps query count stats per record, but no reporting of that yet
