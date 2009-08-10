@@ -33,3 +33,5 @@ keep_logs = 10
 max_log_size = 1024000
 geoipdb = /var/lib/GeoIP/GeoIP.dat
 }}}
+
+There are many settings in PowerDNS that can affect the performance and effectiveness of this backend, please see PDNSConfigurationGuide for details on those
