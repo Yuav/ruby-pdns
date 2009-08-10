@@ -6,6 +6,8 @@ This is a guide about some of the PowerDNS configuration options and how they af
 
 These options generally goes into _/etc/pdns/pdns.conf_ though where exactly depends on your distribution and build.
 
+For settings affecting this backend directly like log locations and such please see [RPDNSConfigurationGuide].
+
 == Launching the backend ==
 These settings configure where to find the runner, how many instances to launch and what version of the protocol to talk to it.
 
