@@ -1,4 +1,5 @@
- * [InstallGuide Installation Guide]
+ * Installing
+  * [InstallGuide Installation Guide]
  * Configuration
   * [RPDNSConfigurationGuide ruby-pdns config guide]
   * [PDNSConfigurationGuide PowerDNS config guide]
