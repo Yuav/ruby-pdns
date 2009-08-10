@@ -18,7 +18,7 @@ There are many ways to deploy this and it will depend on your abilities, require
 
 As you can see there is a ton of options for making this work and the best one totally depends on your needs.
 
-We encourage you to join the [http://groups.google.com/group/ruby-pdns-users ruby-pdns-users mailing list] to discuss the best scenarios and we might improve docs to show some of these in detail.  You can also contact the author to provide consultation services to install or host this for you.
+We encourage you to join the [http://groups.google.com/group/ruby-pdns-users ruby-pdns-users mailing list] to discuss the best scenarios and we might improve docs to show some of these in detail.  You can also [mailto:rip@devco.net contact the author] to provide consultation services to install or host this for you.
 
 == Requirements ==
  * A recent [http://www.powerdns.com/ PowerDNS] server with the Pipe backend, we test against 2.9.22 at time of writing
