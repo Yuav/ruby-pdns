@@ -1,9 +1,9 @@
  * Programmers Reference
-   * [ReferenceInfoAboutRequests About requests]
-   * [ReferenceConstructingReplies Constructing replies]
-   * [ReferenceRubyExtensions Ruby Extensions]
-   * [ReferenceGeoIP GeoIP]
+  * [ReferenceInfoAboutRequests About requests]
+  * [ReferenceConstructingReplies Constructing replies]
+  * [ReferenceRubyExtensions Ruby Extensions]
+  * [ReferenceGeoIP GeoIP]
  * Recipes
-   * [RecipeGeoLocation Location Based]
-   * [RecipeWeightedRoundRobin Weighted Round Robin]
-   * [RecipeTimeBased Time Based]
+  * [RecipeGeoLocation Location Based]
+  * [RecipeWeightedRoundRobin Weighted Round Robin]
+  * [RecipeTimeBased Time Based]
