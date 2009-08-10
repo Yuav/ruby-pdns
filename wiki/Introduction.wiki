@@ -18,6 +18,7 @@
 
 == Configuration ==
  * [RPDNSConfigurationGuide Configuring Ruby PDNS]
+ * [PDNSConfigurationGuide PowerDNS configuration guide]
 
 == TODO List ==
  * Report stats, at present each instance keeps query count stats per record, but no reporting of that yet
