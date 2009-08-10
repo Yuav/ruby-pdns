@@ -16,7 +16,7 @@ Thanks to the windows features, if we return the first ip in the answer it *will
 
 {{{
 module Pdns
-    newrecord("static1.my.com", :type => :record) do |query, answer|
+    newrecord("static1.my.com") do |query, answer|
 
         ips = ["1.x.x.x", "2.x.x.x", "3.x.x.x", "4.x.x.x", "5.x.x.x"]
 

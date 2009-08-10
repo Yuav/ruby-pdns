@@ -6,7 +6,7 @@ Lets say you have multiple Datacenters and want to give your highest paying cust
 
 {{{
 module Pdns
-  newrecord("vip.your.net", :type => :record) do |query, answer|
+  newrecord("vip.your.net") do |query, answer|
       hr = Time.now.hour
 
       case hr

@@ -9,7 +9,7 @@ Each record gets passed a Pdns::Response object containing information about the
 
 {{{
 module Pdns
-  newrecord("www.your.net", :type => :record) do |query, answer|
+  newrecord("www.your.net") do |query, answer|
      answer.qtype = query[:qtype]
     
      # rest removed

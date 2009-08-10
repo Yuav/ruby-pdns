@@ -12,7 +12,7 @@ RPDNS includes at present just a country lookup method using maxmind geoip, in f
 
 {{{
 module Pdns
-  newrecord("static.your.net", :type => :record) do |query, answer|
+  newrecord("static.your.net") do |query, answer|
     case country(query[:remoteip])
       when "US", "CA"
         answer.content "64.xx.xx.245"

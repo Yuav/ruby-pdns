@@ -6,7 +6,7 @@ Each record gets passed a [http://ruby-doc.org/core/classes/Hash.html Hash] cont
 
 {{{
 module Pdns
-  newrecord("www.your.net", :type => :record) do |query, answer|
+  newrecord("www.your.net") do |query, answer|
      answer.qtype = query[:qtype]
     
      # rest removed
