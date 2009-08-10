@@ -14,7 +14,7 @@
    * [ReferenceGeoIP GeoIP Functions]
 
 == Installation ==
- * todo
+ * [InstallGuide Installing Ruby PowerDNS]
 
 == Configuration ==
  * [RPDNSConfigurationGuide Configuring Ruby PDNS]
