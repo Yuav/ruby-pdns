@@ -6,6 +6,8 @@ Basic configuration goes into _/etc/pdns/pdns-ruby-backend.cfg_ by default, you 
 
 The config file is a simple INI file format of just _key=val_ pairs, the keys and possible values are listed below.
 
+Comments starting with _#_ and new lines are allowed and will be ignored.
+
 ||*Option*||*Sample*||*Possible Values*||*Description||
 ||logfile||/var/log/pdns/pipe-backend.log||Any file||Where to write log messages to, for debugging you can use /dev/stderr even||
 ||loglevel||The level to log at||info|error|warn|fatal|debug||Warn is generally a good level to use for production||
@@ -20,6 +22,7 @@ The config file is a simple INI file format of just _key=val_ pairs, the keys an
 A sample file can be seen below
 
 {{{
+# Ruby PowerDNS Config File
 logfile = /var/log/pdns/pipe-backend.log
 loglevel = info
 records_dir = /etc/pdns/records
