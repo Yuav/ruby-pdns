@@ -12,6 +12,7 @@
  * Helpers and Plugins
    * [ReferenceRubyExtensions Extensions and helpers to the Ruby language]
    * [ReferenceGeoIP GeoIP Functions]
+ * [TestingRecords Testing your records]
 
 == Installation ==
  * [InstallGuide Installing Ruby PowerDNS]
