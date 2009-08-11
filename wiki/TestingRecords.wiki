@@ -48,3 +48,5 @@ Response for your.test.com:
 }}}
 
 This will do an _ANY_ query against _your.test.com_ you can pass _--type A_ to do specific types of query.
+
+To test your GeoIP based records you can run with _--remoteip=1.2.3.4_ and the record will be ran as if the remote ip were doing the call.
