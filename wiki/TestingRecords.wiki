@@ -4,6 +4,8 @@
 
 While writing records you'd want to test them, typically you'd have a dev server and drop them into a running instance of the code.  That's not always ideal so a little tester script was written.
 
+*Note:* This feature is only available since 0.4 onward.
+
 == Setup ==
 You need to provide the tester a config file, you'd want to log elsewhere, run in debug mode and point to a different set of records, here is a sample config file:
 
