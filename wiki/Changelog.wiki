@@ -1,4 +1,5 @@
 #summary Release history
+#labels Phase-Implementation
 
 == 0.4 - =
  * Minor maintainability updates [http://code.google.com/p/ruby-pdns/issues/detail?id=13 #13]
