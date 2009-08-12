@@ -1,5 +1,5 @@
 #summary Information about Requests
-#labels Phase-Implementation
+#labels Phase-Historical
 
 == Information about Requests ==
 Each record gets passed a [http://ruby-doc.org/core/classes/Hash.html Hash] containing information about the request, reviewing how a new record gets created:
