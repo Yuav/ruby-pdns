@@ -2,7 +2,7 @@
 #labels Phase-Implementation
 
 == 0.4 - =
- * Minor maintainability updates [http://code.google.com/p/ruby-pdns/issues/detail?id=13 #13]
+ * Minor maintainability updates [http://code.google.com/p/ruby-pdns/issues/detail?id=13 #13], [http://code.google.com/p/ruby-pdns/issues/detail?id=13 #18]
  * Unparsable config lines does not prevent the framework from starting [http://code.google.com/p/ruby-pdns/issues/detail?id=16 #16]
  * Records that dont compile or raise exceptions does not cause the framework to die [http://code.google.com/p/ruby-pdns/issues/detail?id=14 #14]
  * New script has been added to facilitate testing of records interactively [http://code.google.com/p/ruby-pdns/issues/detail?id=15 #15]
