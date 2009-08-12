@@ -1,4 +1,5 @@
 #summary Installation Guide
+#labels Phase-Deploy
 
 = Installing Ruby PDNS =
 == Overview ==
