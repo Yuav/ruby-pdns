@@ -1,4 +1,5 @@
 #summary Graphing PDNS using Cacti
+#labels Phase-Deploy
 = Graphing PDNS using Cacti =
 There are several ways to monitor PowerDNS through Cacti, the data template we provide makes use of [http://nagios.sourceforge.net/docs/nrpe/NRPE.pdf NRPE] (Nagios Remote Plugin Executor).
 
