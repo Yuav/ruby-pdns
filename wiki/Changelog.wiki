@@ -8,4 +8,5 @@
  * New script has been added to facilitate testing of records interactively [http://code.google.com/p/ruby-pdns/issues/detail?id=15 #15]
 
 == 0.3 - 2009/10/03 ==
-Initial public release
+ ||[ReferenceConstructingReplies_0_3 Constructing Replies]||[ReferenceInfoAboutRequests_0_3 About Requests]||[ReferenceGeoIP_0_3 GeoIP]||[ReferenceRubyExtensions_0_3 Ruby Extensions]||
+Initial public release.
