@@ -1,10 +1,9 @@
 #summary Project Introduction
 #labels Featured
 
-== Use Cases / Recipes ==
- * [RecipeGeoLocation Location Based] - using Maxmind GeoIP
- * [RecipeWeightedRoundRobin Weighted Round Robin] - adjusting ratios of traffic to machines/sites
- * [RecipeTimeBased Time Based] - sending VIP customers to a low used site based on time
+= Project Documentation Introduction =
+
+Generally the docs on the site deals with the latest version or even trunk.  Historical versions can be found in the [Changelog] for each release.
 
 == Programming Reference ==
  * [ReferenceInfoAboutRequests Information available about the request]
@@ -13,6 +12,12 @@
    * [ReferenceRubyExtensions Extensions and helpers to the Ruby language]
    * [ReferenceGeoIP GeoIP Functions]
  * [TestingRecords Testing your records]
+
+== Use Cases / Recipes ==
+ * [RecipeGeoLocation Location Based] - using Maxmind GeoIP
+ * [RecipeWeightedRoundRobin Weighted Round Robin] - adjusting ratios of traffic to machines/sites
+ * [RecipeTimeBased Time Based] - sending VIP customers to a low used site based on time
+
 
 == Installation ==
  * [ReferenceInstallGuide Installing Ruby PowerDNS]
