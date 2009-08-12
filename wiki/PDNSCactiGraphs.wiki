@@ -1,10 +1,10 @@
 #summary Graphing PDNS using Cacti
-
+= Graphing PDNS using Cacti =
 There are several ways to monitor PowerDNS through Cacti, the data template we provide makes use of [http://nagios.sourceforge.net/docs/nrpe/NRPE.pdf NRPE] (Nagios Remote Plugin Executor).
 
 Therefore the following steps will apply just to the above method but with a bit of fiddling you can use it with other input methods such SNMP.
 
-PowerDNS Server Part
+== Configuring PowerDNS Server ==
 
  * Place *cacti_pdns.rb* under your */usr/local/bin* path
  * If you run your nrpe plugins under an unprivileged user (e.g nagios) then you will have to add to your sudoers file an entry like: 
@@ -16,7 +16,7 @@ nagios ALL = NOPASSWD: /usr/local/bin/cacti_pdns.rb
 command[check_cacti-pdns]=sudo /usr/local/bin/cacti_pdns.rb
 }}}
 
-Cacti Part
+== Configuring Cacti Server ==
 
  * Import the templates into Cacti through the Console management under Import/Export templates.
 
