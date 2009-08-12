@@ -6,7 +6,7 @@ Therefore the following steps will apply just to the above method but with a bit
 
  # Place *cacti_pdns.rb* under your */usr/local/bin* path
  # If you run your nrpe plugins under an unprivileged user (e.g nagios) then you will have to add to your sudoers file an entry like: *nagios ALL = NOPASSWD: /usr/local/bin/cacti_pdns.rb*
- # Create a configuration file for the nrpe plugin and set up the check as follows: *command{{{[check_cacti-pdns]}}}=sudo /usr/local/bin/cacti_pdns.rb*
+ # Create a configuration file for the nrpe plugin and set up the check as follows: `command[check_cacti-pdns]=sudo /usr/local/bin/cacti_pdns.rb`
  # Import the templates into Cacti through the Console management under Import/Export templates.
  # Once imported you will have to set up the Data Sources for the hosts on which you have PowerDNS running in order to fetch the data from them.
  # Last step will be creating the graphs for PowerDNS hosts. As data needs collecting it might take a while for the graphs to show up with some relevant information. 
