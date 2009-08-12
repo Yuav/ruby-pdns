@@ -6,6 +6,8 @@
  * Unparsable config lines does not prevent the framework from starting [http://code.google.com/p/ruby-pdns/issues/detail?id=16 #16]
  * Records that dont compile or raise exceptions does not cause the framework to die [http://code.google.com/p/ruby-pdns/issues/detail?id=14 #14]
  * New script has been added to facilitate testing of records interactively [http://code.google.com/p/ruby-pdns/issues/detail?id=15 #15]
+ * Start putting in place a system to do periodic maintenance and stats tasks [http://code.google.com/p/ruby-pdns/issues/detail?id=2 #2]
+ * Add cacti monitoring templates to monitor a generic PDNS install [http://code.google.com/p/ruby-pdns/issues/detail?id=17 #17]
 
 == 0.3 - 2009/10/03 ==
  ||[ReferenceConstructingReplies_0_3 Constructing Replies]||[ReferenceInfoAboutRequests_0_3 About Requests]||[ReferenceGeoIP_0_3 GeoIP]||[ReferenceRubyExtensions_0_3 Ruby Extensions]||
