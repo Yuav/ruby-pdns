@@ -1,5 +1,5 @@
 #summary Ruby PDNS configuration guide
-#labels Phase-Deploy
+#labels Phase-Historical
 
 = Ruby PDNS configuration guide =
 Basic configuration goes into _/etc/pdns/pdns-ruby-backend.cfg_ by default, you can though specify an alternative location using the _--config_ command line option.
