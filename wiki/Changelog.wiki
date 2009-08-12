@@ -10,5 +10,6 @@
  * Add cacti monitoring templates to monitor a generic PDNS install [http://code.google.com/p/ruby-pdns/issues/detail?id=17 #17]
 
 == 0.3 - 2009/10/03 ==
- ||[ReferenceConstructingReplies_0_3 Constructing Replies]||[ReferenceInfoAboutRequests_0_3 About Requests]||[ReferenceGeoIP_0_3 GeoIP]||[ReferenceRubyExtensions_0_3 Ruby Extensions]||
+ ||[ReferenceConstructingReplies_0_3 Constructing Replies]||[ReferenceInfoAboutRequests_0_3 About Requests]||[ReferenceGeoIP_0_3 GeoIP]||
+ ||[ReferenceRubyExtensions_0_3 Ruby Extensions]||||[ReferenceConfigurationGuide_0_3 Configuration Reference]||[ReferenceInstallGuide_0_3 Install Guide]||
 Initial public release.
