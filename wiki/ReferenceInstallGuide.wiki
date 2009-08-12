@@ -60,7 +60,7 @@ Now do:
 This should more or less get you up to the same place as simply installing the RPM
 
 === Configuring Ruby PDNS ===
-You now need to tune the _/etc/pdns/pdns-ruby-backend.cfg_ to your tastes, the defaults given should be fairly obvious and would work out the box on a CentOS machine.  See the full [RPDNSConfigurationGuide Ruby PDNS Configuration Guide] for details on all the possible settings.
+You now need to tune the _/etc/pdns/pdns-ruby-backend.cfg_ to your tastes, the defaults given should be fairly obvious and would work out the box on a CentOS machine.  See the full [ReferenceConfigurationGuide Ruby PDNS Configuration Guide] for details on all the possible settings.
 
 === Integrating with PowerDNS ===
 In the simplest case where you use PowerDNS just to serve records answered by this system you'd only adjust these settings in _/etc/pdns/pdns.conf_

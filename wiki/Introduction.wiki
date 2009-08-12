@@ -15,10 +15,10 @@
  * [TestingRecords Testing your records]
 
 == Installation ==
- * [InstallGuide Installing Ruby PowerDNS]
+ * [ReferenceInstallGuide Installing Ruby PowerDNS]
 
 == Configuration ==
- * [RPDNSConfigurationGuide Configuring Ruby PDNS]
+ * [ReferenceConfigurationGuide Configuring Ruby PDNS]
  * [PDNSConfigurationGuide PowerDNS configuration guide]
 
 == Release History ==
