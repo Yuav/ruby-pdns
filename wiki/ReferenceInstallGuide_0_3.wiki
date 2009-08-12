@@ -1,4 +1,5 @@
 #summary Installation Guide
+#labels Phase-Historical
 
 = Installing Ruby PDNS =
 == Overview ==
