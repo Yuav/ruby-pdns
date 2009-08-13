@@ -8,6 +8,7 @@
  * New script has been added to facilitate testing of records interactively [http://code.google.com/p/ruby-pdns/issues/detail?id=15 #15]
  * Start putting in place a system to do periodic maintenance and stats tasks [http://code.google.com/p/ruby-pdns/issues/detail?id=2 #2]
  * Add cacti monitoring templates to monitor a generic PDNS install [http://code.google.com/p/ruby-pdns/issues/detail?id=17 #17]
+ * The GeoIP code ignored the configured path to the geoip data and so blew up pretty badly, code is now more robust in handling errors and uses the config.  Thanks Christian Keil for the bug report.  [http://code.google.com/p/ruby-pdns/issues/detail?id=20 #20]
 
 == 0.3 - 2009/10/03 ==
  ||[ReferenceConstructingReplies_0_3 Constructing Replies]||[ReferenceInfoAboutRequests_0_3 About Requests]||[ReferenceGeoIP_0_3 GeoIP]||
