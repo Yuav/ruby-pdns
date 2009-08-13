@@ -20,5 +20,6 @@ Does a simple country code lookup on either _hostname_ or _ip address_.
       end
 }}}
 
-
+On failure - such as missing data file - the lookup will return _nil_ so always be sure to have an _else_ block in your case statements.
+ 
 *Note*: In order to effectively use this module you must disable caching of packets and responses by PDNS
