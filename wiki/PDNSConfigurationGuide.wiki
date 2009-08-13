@@ -51,6 +51,8 @@ PowerDNS feels it needs to recurse CNAMEs and try to resolve them locally, this 
 skip-cname=yes
 }}}
 
+If however you host for example _a.your.com_ and _b.your.com_ on your ruby-pdns, with _a_ being a CNAME for _b_ then you _must_ set this option to _no_ else it won't work.
+
 == Disabling processing out-of-zone data ==
 If you use PowerDNS to just host records using this backend then you should disable this, else leave it on else your other records and domains might break, this option and the CNAME processing above should go hand-in-hand
 
