@@ -49,3 +49,5 @@ command[check_cacti-pdns]=sudo /usr/local/bin/cacti_pdns.rb
 
    At this point the graph is ready, click on Save and you will see that the graph has been added to the PowerDNS host.
    As data needs collecting it might take a while for the graphs to show up with some relevant information. 
+
+   Repeat the process to add the rest of the graphs.
