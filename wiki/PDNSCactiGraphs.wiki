@@ -19,13 +19,17 @@ command[check_cacti-pdns]=sudo /usr/local/bin/cacti_pdns.rb
 
 == Configuring Cacti Server ==
 
- * Import the templates into Cacti through the Console management under Import/Export templates.
+ * Import the templates into Cacti through the Console management under Import/Export templates. In the example shown below the data template has been imported:
 
-     Here will go the import/export screenshot
+http://www.devco.net/images/cacti/cacti_import_templates.png
 
- * Once imported you will have to set up the Data Sources for the hosts on which you have PowerDNS running in order to fetch the data from them.
+ * Once all the templates have been imported into Cacti you will have to set up the Data Sources for the hosts on which you have PowerDNS running in order to fetch the data from them.  Therefore you need to go to Management -> Data Sources and then click on Add which can be found in the top right corner of the page, as the screenshot underneath shows.
 
-     Here will go the data source setup screenshot
+http://www.devco.net/images/cacti/cacti_datasource_add.png
+
+The next interface is very straightforward. You just need to specify as a data template 'PowerDNS stats' the PowerDNS host you will be monitoring.
+
+http://www.devco.net/images/cacti/cacti_select_datasource.png
 
  * Last step will be creating the graphs for PowerDNS hosts. As data needs collecting it might take a while for the graphs to show up with some relevant information. 
 
