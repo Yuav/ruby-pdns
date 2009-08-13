@@ -26,5 +26,8 @@ Generally the docs on the site deals with the latest version or even trunk.  His
  * [ReferenceConfigurationGuide Configuring Ruby PDNS]
  * [PDNSConfigurationGuide PowerDNS configuration guide]
 
+== Miscellaneous Contributions ==
+ * [PDNSCactiGraphs PowerDNS Cacti Graphs]
+
 == Release History ==
  * [Changelog]
