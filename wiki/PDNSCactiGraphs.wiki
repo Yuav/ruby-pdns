@@ -31,6 +31,21 @@ command[check_cacti-pdns]=sudo /usr/local/bin/cacti_pdns.rb
 
    http://www.devco.net/images/cacti/cacti_select_datasource.png
 
- * Last step will be creating the graphs for PowerDNS hosts. As data needs collecting it might take a while for the graphs to show up with some relevant information. 
+   After you provided the required information click on Create and you will get to a page like this where you just have to save the newly-created data source.
 
-     Here will go the graphs creation screenshot
+   http://www.devco.net/images/cacti/cacti_save_datasource.png
+
+ * Last step will be creating the graphs for the PowerDNS hosts. Still under Management, go to Graph Management and then click on Add on the top right corner of the page. 
+
+   http://www.devco.net/images/cacti/cacti_graph_mgmt_add_graph.png
+
+   In the next page you will need to specify which graph template you want to use to create the new graph and the PowerDNS host you will be monitoring
+
+   http://www.devco.net/images/cacti/cacti_select_graph_template.png
+
+   Once selected click on Create and in the next and last interface you will be required to select which data source will be used to graph each item.
+
+   http://www.devco.net/images/cacti/cacti_select_graph_datasource.png
+
+   At this point the graph is ready, click on Save and you will see that the graph has been added to the PowerDNS host.
+   As data needs collecting it might take a while for the graphs to show up with some relevant information. 
