@@ -2,6 +2,8 @@
 #labels Phase-Implementation
 
 == 0.4 - =
+Release focus: Stability and Robustness.
+
  * Minor maintainability updates [http://code.google.com/p/ruby-pdns/issues/detail?id=13 #13], [http://code.google.com/p/ruby-pdns/issues/detail?id=18 #18]
  * Unparsable config lines does not prevent the framework from starting [http://code.google.com/p/ruby-pdns/issues/detail?id=16 #16]
  * Records that dont compile or raise exceptions does not cause the framework to die [http://code.google.com/p/ruby-pdns/issues/detail?id=14 #14]
@@ -11,6 +13,8 @@
  * The GeoIP code ignored the configured path to the geoip data and so blew up pretty badly, code is now more robust in handling errors and uses the config.  Thanks Christian Keil for the bug report.  [http://code.google.com/p/ruby-pdns/issues/detail?id=20 #20]
 
 == 0.3 - 2009/10/03 ==
+Release focus: Get major features completed.
+
  ||[ReferenceConstructingReplies_0_3 Constructing Replies]||[ReferenceInfoAboutRequests_0_3 About Requests]||[ReferenceGeoIP_0_3 GeoIP]||
  ||[ReferenceRubyExtensions_0_3 Ruby Extensions]||||[ReferenceConfigurationGuide_0_3 Configuration Reference]||[ReferenceInstallGuide_0_3 Install Guide]||
 Initial public release.
