@@ -17,9 +17,4 @@ opts.each do |opt, arg|
 end
 
 
-begin
-    Pdns::Runner.new(conffile)
-rescue Exception => e
-    Pdns.fatal("Runner loop exited: #{e}")
-    Pdns.fatal(e.backtrace)
-end
+Pdns::Runner.new(conffile)
