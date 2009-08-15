@@ -14,7 +14,7 @@ module Pdns
     #    geoipdb = /var/lib/GeoIP/GeoIP.dat
     #
     class Config
-        attr_reader :logfile, :loglevel, :records_dir, :soa_contact, :soa_nameserver, :reload_interval, :keep_logs, :max_log_size, :geoipdb, :maint_interval
+        attr_reader :logfile, :loglevel, :records_dir, :soa_contact, :soa_nameserver, :reload_interval, :keep_logs, :max_log_size, :geoipdb
 
         def initialize(configfile)
             @logfile = "/var/log/pdns/pipe-backend.log"
@@ -25,8 +25,6 @@ module Pdns
             @reload_interval = 60
             @keep_logs = 10
             @max_log_size = 1024000
-            @maint_interval = 60
-            @geoipdb = "/var/lib/GeoIP/GeoIP.dat"
 
 
             if File.exists?(configfile)
@@ -53,12 +51,10 @@ module Pdns
                                     @max_log_size = val.to_i
                                 when "geoipdb"
                                     @geoipdb = val
-                                when "maint_interval"
-                                    @maint_interval = val.to_i
                                 when "loglevel"
                                     @loglevel = val
                                 else
-                                    Pdns.error("Unknown config parameter #{key}")
+                                    raise("Unknown config parameter #{key}")
                             end
                         end
                     end

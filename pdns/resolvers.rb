@@ -58,11 +58,6 @@ module Pdns
             end
         end
 
-        # Returns a hash of the stats for records
-        def stats
-            @@resolverstats
-        end
-
         # Performs an actual query and returns a Pdns::Response class
         #
         # query is a hash that should have all of the following:
@@ -87,26 +82,11 @@ module Pdns
 
             begin
                 r = get_resolver(request)
-            rescue Exception => e
-                raise Pdns::UnknownRecord, "Cannot find a configured record for #{qname}: #{e}"
-            end
 
-            # redirect stdout to /dev/null
-            orig_stdout = $stdout
-            $stdout = File.new('/dev/null', 'w')
-
-            begin
                 r[:block].call(request, answer)
-
-                # restore stdout
-                $stdout = orig_stdout
-
                 @@resolverstats[qname.downcase][:usagecount] += 1
             rescue Exception => e
-                # restore stdout
-                $stdout = orig_stdout
-
-                raise Pdns::RecordCallError, "Failed to call block for #{qname}: #{e}"
+                raise Pdns::UnknownRecord, "Cannot find a configured record for #{qname}: #{e}"
             end
 
             answer
