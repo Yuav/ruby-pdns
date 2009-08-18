@@ -45,5 +45,6 @@ In this example I am managing the traffic between the Red and the Green machine,
 
 The change was rolled out midnight on the 6th, you can see the bias change from Green to Red over the next hours and stay that way for the days to come.  Since the change there have been zero alerts for load on the servers and no customer complaints, mail queues are down and everyone's happy - result.
 
-
 In this case I am balancing the traffic 3:1 using the technique above favoring the Red, and it is working 100% spot on.
+
+Another example of balancing traffic - this time web traffic - can be seen [http://www.devco.net/archives/2009/08/17/managing_web_traffic_with_ruby-pdns.php here].
