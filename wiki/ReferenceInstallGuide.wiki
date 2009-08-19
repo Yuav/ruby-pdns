@@ -49,7 +49,7 @@ You can install using the rubygem provided, if we do not provide packages for yo
    * Create the directory _/var/log/pdns_ and set ownership to _pdns:pdns_
    * Create the directory _/etc/pdns/records_ 
 
- *Note:* The configuration instructions below assume you have the default config file in _/etc/pdns_ if you install with the gem samples will be in your rubygems directories you'll need to either start a new config file on your own or grab them from there, see _gem contents ruby-pdns_ for the locations.
+*Note:* The configuration instructions below assume you have the default config file in _/etc/pdns_ if you install with the gem samples will be in your rubygems directories you'll need to either start a new config file on your own or grab them from there, see _gem contents ruby-pdns_ for the locations.
 
 === Configuring Ruby PDNS ===
 You now need to tune the _/etc/pdns/pdns-ruby-backend.cfg_ to your tastes, the defaults given should be fairly obvious and would work out the box on a CentOS machine.  See the full [ReferenceConfigurationGuide Ruby PDNS Configuration Guide] for details on all the possible settings.
