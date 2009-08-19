@@ -67,7 +67,7 @@ pipebackend-abi-version=2
 There are a whole list of other settings though to tune, please see both our guide on [PDNSConfigurationGuide PowerDNS settings that we've found useful] and the [http://docs.powerdns.org/ official docs].
 
 === Testing ===
-The RPM or manual process above will have installed _/etc/pdns/records/'*'-sample_ on your machine, these records will not be active till you name them correctly, so rename _/etc/pdns/records/foo.my.net.prb-sample_ to _/etc/pdns/records/foo.my.net.prb_
+The RPM or Gem process above will have installed _/etc/pdns/records/`*`-sample_ on your machine, these records will not be active till you name them correctly, so rename _/etc/pdns/records/foo.my.net.prb-sample_ to _/etc/pdns/records/foo.my.net.prb_
 
 Now start your pdns server and look at the logs, you should see lines like:
 
