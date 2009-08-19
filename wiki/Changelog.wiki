@@ -11,6 +11,7 @@ Release focus: Stability and Robustness.
  * Start putting in place a system to do periodic maintenance and stats tasks [http://code.google.com/p/ruby-pdns/issues/detail?id=2 #2]
  * Add cacti monitoring templates to monitor a generic PDNS install [http://code.google.com/p/ruby-pdns/issues/detail?id=17 #17]
  * The GeoIP code ignored the configured path to the geoip data and so blew up pretty badly, code is now more robust in handling errors and uses the config.  Thanks Christian Keil for the bug report.  [http://code.google.com/p/ruby-pdns/issues/detail?id=20 #20]
+ * Added a rubygem build task and updated install docs etc [http://code.google.com/p/ruby-pdns/issues/detail?id=19 #19]
 
 == 0.3.1 - 2009/10/15 ==
 Release focus: Bug fixes and improved error handling
