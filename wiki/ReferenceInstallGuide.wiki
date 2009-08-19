@@ -26,6 +26,7 @@ We encourage you to join the [http://groups.google.com/group/ruby-pdns-users rub
  * Ruby, tested against 1.8.5 as provided by CentOS 5.3
  * [http://www.maxmind.com/app/ruby Maxmind's Ruby GeoIP] plugin
  * GeoIP and GeoIP Data, CentOS provide RPMs in their Extras repository for this
+ * If you're going to install using Ruby Gems you need them installed first
 
 == Install PowerDNS ==
 I am not going to cover the install of PowerDNS in detail, you should get PowerDNS and PowerDNS Pipe Backend installed, on the CentOS machines I used the packages from [https://fedoraproject.org/wiki/EPEL EPEL] for this.
@@ -40,7 +41,7 @@ In the current release - 0.3 as of time of writing - we provide a RedHat Source 
  * Install once you've met all the listed requirements above simply install the rpm using _rpm -ivh ruby-pdns-0.3rc1-46.el5.noarch.rpm_
  * The RPM will set up log directories in _/var/log/pdns_ and install all the needed libraries into the Ruby site directory etc, it will also install a config file and sample records.
 
-=== Installing using RubyGems ===
+=== Installing using Ruby Gems ===
 You can install using the rubygem provided, if we do not provide packages for your distribution this is the prefered method.
 
  * Get the gem from [http://code.google.com/p/ruby-pdns/downloads/list download list]
