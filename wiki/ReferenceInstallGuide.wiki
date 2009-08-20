@@ -80,9 +80,9 @@ Aug 10 17:31:05 dev2 pdns[5310]: Backend launched with banner: OK#011Ruby PDNS b
 and in your _/var/log/pdns/pipe-backend.log_ you should see many lines like these:
 
 {{{
-W, [2009-08-10T17:31:05.773388 #5320]  WARN -- : 5320 /usr/lib/ruby/site_ruby/1.8/pdns/runner.rb:16:in `initialize': Runner starting
-W, [2009-08-10T17:31:05.773607 #5320]  WARN -- : 5320 /usr/lib/ruby/site_ruby/1.8/pdns/runner.rb:33:in `load_records': Loading new record from /etc/pdns/records/foo.my.net.prb
-I, [2009-08-10T17:31:05.773923 #5320]  INFO -- : 5320 /usr/lib/ruby/site_ruby/1.8/pdns/runner.rb:129:in `handshake': Ruby PDNS backend starting with PID 5320
+W, [2009-08-10T17:31:05.773388 #5320]  WARN -- : 5320 runner.rb:16:in `initialize': Runner starting
+W, [2009-08-10T17:31:05.773607 #5320]  WARN -- : 5320 runner.rb:33:in `load_records': Loading new record from /etc/pdns/records/foo.my.net.prb
+I, [2009-08-10T17:31:05.773923 #5320]  INFO -- : 5320 runner.rb:129:in `handshake': Ruby PDNS backend starting with PID 5320
 }}}
 
 Now do a simple dig test:
