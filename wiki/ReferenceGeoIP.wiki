@@ -4,6 +4,15 @@
 
 At present the GeoIP module is very limited, partly by the Ruby GeoIP module and by my personal needs.
 
+=== Configuration ===
+You need to give the path to your _GeoIP.dat_ file, to do this add a line to the main configuration file:
+
+{{{
+geoip.dblocation = /var/lib/GeoIP/GeoIP.dat
+}}}
+
+The default location if you do not configure it is _/var/lib/GeoIP/GeoIP.dat_
+
 === country ===
 Does a simple country code lookup on either _hostname_ or _ip address_.
 

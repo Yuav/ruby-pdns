@@ -15,6 +15,7 @@ Release focus: Stability and Robustness.
  * Change the logging output to only show the filename not the full path of the file that produced the log entry
  * Now prints the correct file and line where log lines are being created from  [http://code.google.com/p/ruby-pdns/issues/detail?id=22 #22]
  * Modules like GeoIP can now have seperate config stanzas  [http://code.google.com/p/ruby-pdns/issues/detail?id=7 #7]
+ * GeoIP now has it's own config bits in config file  [http://code.google.com/p/ruby-pdns/issues/detail?id=23 #23]
 
 
 == 0.3.1 - 2009/10/15 ==

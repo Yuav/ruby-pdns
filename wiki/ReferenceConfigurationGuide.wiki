@@ -17,7 +17,6 @@ Comments starting with _#_ and new lines are allowed and will be ignored.
 ||soa_nameserver||ns1.your.net||The primary nameserver listed in SOA records||We create fake SOA records, this will be the nameserver||
 ||keep_logs||10||Integer number||How many logs to keep||
 ||max_log_size||1024000||Integer number||What size log to keep||
-||geoipdb||/var/lib/GeoIP/GeoIP.dat||Full path||Where to find the GeoIP.dat file||
 ||maint_interval||60||Integer numbers in seconds||How often to run maintenance like dumping stats and clearing caches||
 
 Additional module configuration can be done in this file using lines like these:
@@ -40,7 +39,6 @@ soa_nameserver = ns1.foo.net
 reload_interval = 60
 keep_logs = 10
 max_log_size = 1024000
-geoipdb = /var/lib/GeoIP/GeoIP.dat
 maint_interval = 60
 geoip.dblocation = /var/lib/GeoIP/GeoIP.dat
 }}}
