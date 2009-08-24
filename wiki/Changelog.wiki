@@ -4,7 +4,7 @@
 == 0.4 - = 
 Release focus: Stability and Robustness.
 
-Release Candidates: rc1 - 2009/10/24
+Release Candidates: rc1 - 2009/10/24, Release Notes: [ReleaseNotes_0_4]
 
  ||[ReferenceConstructingReplies_0_4 Constructing Replies]||[ReferenceInfoAboutRequests_0_4 About Requests]||[ReferenceGeoIP_0_4 GeoIP]||
  ||[ReferenceRubyExtensions_0_4 Ruby Extensions]||||[ReferenceConfigurationGuide_0_4 Configuration Reference]||[ReferenceInstallGuide_0_4 Install Guide]||
