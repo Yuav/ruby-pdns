@@ -6,6 +6,8 @@ We're pleased to announce release 0.4 of Ruby PDNS.
 
 Release 0.3 was a feature complete release but lacked full exception handling, the 0.4 branch is primarily concerned with stability and as such has a lot of new exception handling, unit test coverage and some code refactoring to make future releases easier.
 
+There should now be very few causes for the backend just not to start or just randomly exit without logging useful information to the log file.  The only case we're aware of is when the logfile cannot be written to which is treated as a critical failure.
+
 In addition to robustness improvements we've now added a tool that can be used to test your records outside of your nameserver, this should help with syntax and logic checking even with GeoIP as you can specify custom source addresses etc.  See [TestingRecords]
 
 This release is available as a tarball, RPM, Source RPM and RubyGem on the [http://code.google.com/p/ruby-pdns/downloads/list downloads] page.
