@@ -1,5 +1,5 @@
 #summary GeoIP Module
-#labels Phase-Implementation
+#labels Phase-Historical,Deprecated                                                                                                                                                                                                                                                  
 == GeoIP Module ==
 
 At present the GeoIP module is very limited, partly by the Ruby GeoIP module and by my personal needs.
