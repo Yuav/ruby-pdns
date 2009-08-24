@@ -34,7 +34,7 @@ To upgrade using the RubyGem if you installed by hand in the past please do:
 Now follow the install guide as if you're a new install of RubyGems
 
 === RPM Installs ===
-The RPM should cleanly upgrade using just _rpm -Uvh ruby-pdns-0.4-rc1.el5.noarch.rpm_
+The RPM should cleanly upgrade using just _rpm -Uvh ruby-pdns-0.4.el5.noarch.rpm_
 
 === Configuration ===
 This release requires you to make changes to your config file, for a full reference of the config file please see [ReferenceConfigurationGuide_0_4 Configuration Reference], the changes in this release are:
@@ -56,4 +56,3 @@ This release requires you to make changes to your config file, for a full refere
  * Modules like GeoIP can now have seperate config stanzas  [http://code.google.com/p/ruby-pdns/issues/detail?id=7 #7]
  * GeoIP now has it's own config bits in config file  [http://code.google.com/p/ruby-pdns/issues/detail?id=23 #23]
  * Initial set of unit tests have been added using ruby Test::Unit  [http://code.google.com/p/ruby-pdns/issues/detail?id=24 #24]
-
