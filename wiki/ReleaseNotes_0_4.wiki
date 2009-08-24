@@ -10,7 +10,7 @@ There should now be very few causes for the backend just not to start or just ra
 
 In addition to robustness improvements we've now added a tool that can be used to test your records outside of your nameserver, this should help with syntax and logic checking even with GeoIP as you can specify custom source addresses etc.  See [TestingRecords]
 
-This release is available as a tarball, RPM, Source RPM and RubyGem on the [http://code.google.com/p/ruby-pdns/downloads/list?can=2&q=0.4rc1 downloads] page.
+This release is available as a tarball, RPM, Source RPM and RubyGem on the [http://code.google.com/p/ruby-pdns/downloads/list?can=2&q=0.4 downloads] page.
 
 This release does not break any backward compatibility with your records, however you do need to make a small change to the configuration file.  Please see further down below.
 
