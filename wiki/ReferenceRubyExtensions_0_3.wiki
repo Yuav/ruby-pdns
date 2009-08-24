@@ -1,5 +1,5 @@
 #summary Extensions to the Ruby Language
-#labels Phase-Historical
+#labels Phase-Historical,Deprecated                                                                                                                                                                                                                                                  
 = Extensions to the Ruby Language =
 
 <wiki:toc />
