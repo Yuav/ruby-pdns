@@ -3,6 +3,7 @@
 
 == 0.4 - = 
 Release focus: Stability and Robustness.
+
 Release Candidates: rc1 - 2009/10/24
 
  ||[ReferenceConstructingReplies_0_4 Constructing Replies]||[ReferenceInfoAboutRequests_0_4 About Requests]||[ReferenceGeoIP_0_4 GeoIP]||
