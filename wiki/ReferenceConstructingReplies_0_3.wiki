@@ -1,5 +1,5 @@
 #summary Constructing the Answer
-#labels Phase-Historical
+#labels Phase-Historical,Deprecated
 
 == Constructing the Answer ==
 
