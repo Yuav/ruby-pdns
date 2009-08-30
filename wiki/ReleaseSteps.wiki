@@ -13,6 +13,7 @@ Doing RPM test:
  * copy sample test records onto server and test with dig from remote machine
 
 Doing Release Candidate:
+ * Create branch
  * set ENV variables to make rc, rake rpm  after commenting out the gem tasks
  * tar the release
  * upload tar, rpm and srpm to google code
