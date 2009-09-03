@@ -1,7 +1,7 @@
 #summary Release history
 #labels Phase-Implementation
 
-== 0.1 - =
+== 1.0 - =
 Release focus: Feature Enhancement
 
 == 0.4 - 2009/08/30 = 
