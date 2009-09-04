@@ -12,6 +12,7 @@ Comments starting with _#_ and new lines are allowed and will be ignored.
 ||logfile||/var/log/pdns/pipe-backend.log||Any file||Where to write log messages to, for debugging you can use /dev/stderr even||
 ||loglevel||The level to log at||info|error|warn|fatal|debug||Warn is generally a good level to use for production||
 ||stats_dir||/var/log/pdns/stats||Directory where stats will be written||
+||recordstats||true||Set to true to keep stats, else false||
 ||records_dir||/etc/pdns/records||Any directory||Where to find _*.prb_ files||
 ||reload_interval||60||Integer numbers||How often in seconds to reload records from _records`_`dir_||
 ||soa_contact||postmaster.your.net||Email address as acceptable in SOA records||We create fake SOA records, this will be the contact||
@@ -36,6 +37,7 @@ logfile = /var/log/pdns/pipe-backend.log
 loglevel = info
 records_dir = /etc/pdns/records
 stats_dir = /var/log/pdns/stats
+keepstats = true
 soa_contact = dns-admin.foo.net
 soa_nameserver = ns1.foo.net
 reload_interval = 60
