@@ -11,8 +11,8 @@ Comments starting with _#_ and new lines are allowed and will be ignored.
 ||*Option*||*Sample*||*Possible Values*||*Description||
 ||logfile||/var/log/pdns/pipe-backend.log||Any file||Where to write log messages to, for debugging you can use /dev/stderr even||
 ||loglevel||The level to log at||info|error|warn|fatal|debug||Warn is generally a good level to use for production||
-||stats_dir||/var/log/pdns/stats||Directory where stats will be written||
-||recordstats||true||Set to true to keep stats, else false||
+||stats_dir||/var/log/pdns/stats||Any directory writable _pdns_ user||Directory where stats will be written||
+||recordstats||true||true, false||Set to true to keep stats, else false||
 ||records_dir||/etc/pdns/records||Any directory||Where to find _*.prb_ files||
 ||reload_interval||60||Integer numbers||How often in seconds to reload records from _records`_`dir_||
 ||soa_contact||postmaster.your.net||Email address as acceptable in SOA records||We create fake SOA records, this will be the contact||
@@ -20,7 +20,6 @@ Comments starting with _#_ and new lines are allowed and will be ignored.
 ||keep_logs||10||Integer number||How many logs to keep||
 ||max_log_size||1024000||Integer number||What size log to keep||
 ||maint_interval||60||Integer numbers in seconds||How often to run maintenance like dumping stats and clearing caches||
-||recordstats||yes||Record and write statistics for queries||
 
 Additional module configuration can be done in this file using lines like these:
 
