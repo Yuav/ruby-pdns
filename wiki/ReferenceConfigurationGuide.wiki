@@ -20,6 +20,7 @@ Comments starting with _#_ and new lines are allowed and will be ignored.
 ||keep_logs||10||Integer number||How many logs to keep||
 ||max_log_size||1024000||Integer number||What size log to keep||
 ||maint_interval||60||Integer numbers in seconds||How often to run maintenance like dumping stats and clearing caches||
+||recordstats||yes||Record and write statistics for queries||
 
 Additional module configuration can be done in this file using lines like these:
 
@@ -45,6 +46,7 @@ keep_logs = 10
 max_log_size = 1024000
 maint_interval = 60
 geoip.dblocation = /var/lib/GeoIP/GeoIP.dat
+recordstats = yes
 }}}
 
 There are many settings in PowerDNS that can affect the performance and effectiveness of this backend, please see [PDNSConfigurationGuide] for details on those
