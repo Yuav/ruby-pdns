@@ -4,6 +4,7 @@
  * Configuration
   * [ReferenceConfigurationGuide ruby-pdns config guide]
   * [PDNSConfigurationGuide PowerDNS config guide]
+  * [ReferenceStatistics Statistics Collection]
  * Programmers Reference
   * [ReferenceInfoAboutRequests About requests]
   * [ReferenceConstructingReplies Constructing replies]
