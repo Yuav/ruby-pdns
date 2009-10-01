@@ -25,6 +25,12 @@ Recording stats is enabled by default, the below two configuration options affec
 
 A cronjob will be saved - usually in _/etc/cron.d/rubypdns_ - it runs every 5 minutes and creates the aggregate data.
 
+If you installed using the Gem you need to add this cronjob yourself, place the following in _/etc/cron.d/rubypdns_:
+
+{{{
+*/5 * * * *  pdns /usr/sbin/pdns-aggregate-stats.rb --config /etc/pdns/pdns-ruby-backend.cfg
+}}}
+
 As long as this cronjob runs no old data will be left in the stats dir, it will clean up files slightly older than the _maint_interval_ setting in the configuration file.
 
 == Extracting Statistics ==
