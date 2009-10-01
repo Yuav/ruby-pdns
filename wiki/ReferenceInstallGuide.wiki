@@ -94,3 +94,6 @@ dns-admin.unconfigured.ruby-pdns.server.net. ns1.unconfigured.ruby-pdns.server.n
 }}}
 
 If you see this then you know the logic in the custom record is being served and you can now continue to writing your own records and hosting them on your server.
+
+=== Statistics ===
+Detailed statistics about records queries and time spent serving those records get recorded, see [ReferenceStatistics] for details on this.
