@@ -3,7 +3,7 @@
 
 == 0.5 - =
 Release focus: Feature Enhancement
- * Add stats per record for usage count and time spent processing records [http://code.google.com/p/ruby-pdns/issues/detail?id=13 #13], [http://code.google.com/p/ruby-pdns/issues/detail?id=2 #2]
+ * Add stats per record for usage count and time spent processing records [http://code.google.com/p/ruby-pdns/issues/detail?id=2 #2]
 
 == 0.4 - 2009/08/30 = 
 Release focus: Stability and Robustness.
