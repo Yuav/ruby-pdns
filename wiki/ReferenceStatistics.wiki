@@ -15,6 +15,8 @@ Several components are involved in producing the stats, these are:
  * A cron job reads the stats, discards old stats and produce an aggregate file containing the combined stats for all workers
  * A script - _pdns-get-stats_ - outputs statistics for a specified record in the format prescribed by the Cacti plugin system
 
+*NOTE:* This feature is available from release 0.5 onward.
+
 == Configuration ==
 Recording stats is enabled by default, the below two configuration options affect where and if they will get logged.
 
