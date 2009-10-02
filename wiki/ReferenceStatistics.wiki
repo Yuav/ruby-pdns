@@ -43,7 +43,7 @@ usagecount:30 totaltime:0.00759959220886231
 usagecount:10 totaltime:0.00123
 }}}
 
-You can use this script via [http://nagios.sourceforge.net/docs/3_0/addons.html NRPE] or SNMP for inclusion in any stats system you choose.
+You can use this script via [http://nagios.sourceforge.net/docs/3_0/addons.html NRPE] or SNMP for inclusion in any stats system you choose.  For a sample of using NRPE from Cacti see the [PDNSCactiGraphs Cacti Graphs we provide for PDNS].
 
 == Future Plans ==
 In future we intend to write scripts like the _pdns-get-stats.rb_ script that can run periodically to update RRD file or send data to collectd etc, this will be based on user demand.
