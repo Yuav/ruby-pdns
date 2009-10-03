@@ -1,5 +1,5 @@
 ﻿#summary Release Notes for 0.5
-#labels Phase-Historical,Deprecated                                                                                                                                     
+#labels Phase-Historical,Deprecated
 
 = Introduction =
 We're pleased to announce release 0.5 of Ruby PDNS.
@@ -25,7 +25,16 @@ We tag the documentation for each release so you always have a good point in tim
 Upgrading should be simplest with the RPM, the major change is a few more config options, a cronjob and some extra files.
 
 === Source Installs ===
-TODO
+Upgrade the gem using the normal Gem commands, then do:
+
+ * Create the directory _/var/log/pdns/stats_ and set ownership to _pdns:pdns_
+
+Create the stats cronjob in _/etc/cron.d/rubypdns_:
+
+{{{
+*/5 * * * *  pdns /usr/sbin/pdns-aggregate-stats.rb --config /etc/pdns/pdns-ruby-backend.cfg
+}}}
+
 
 === RPM Installs ===
 The RPM should cleanly upgrade using just _rpm -Uvh ruby-pdns-0.5.el5.noarch.rpm_
