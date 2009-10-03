@@ -3,7 +3,7 @@
 = Introduction =
 We're pleased to announce release 0.5 of Ruby PDNS.
 
-This is a feature enhancement release, this release keeps stats on a per record basis - usage count and total time spent serving a record.
+This is a feature enhancement release, this release keeps stats on a per record basis - usage count and total time spent serving a record.  Full details on this feature can be found at [ReferenceStatistics_0_5]
 
 This release is available as a tarball, RPM, Source RPM and RubyGem on the [http://code.google.com/p/ruby-pdns/downloads/list?can=2&q=0.5 downloads] page.
 
