@@ -1,5 +1,5 @@
-#summary Release Notes for 0.5
-#labels Phase-Deploy
+﻿#summary Release Notes for 0.5
+#labels Phase-Historical,Deprecated                                                                                                                                     
 
 = Introduction =
 We're pleased to announce release 0.5 of Ruby PDNS.
