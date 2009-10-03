@@ -1,0 +1,39 @@
+#summary Release Notes for 0.5
+
+= Introduction =
+We're pleased to announce release 0.5 of Ruby PDNS.
+
+This is a feature enhancement release, this release keeps stats on a per record basis - usage count and total time spent serving a record.
+
+This release is available as a tarball, RPM, Source RPM and RubyGem on the [http://code.google.com/p/ruby-pdns/downloads/list?can=2&q=0.5 downloads] page.
+
+This release does not break any backward compatibility with your records, however you do need to make a small change to the configuration file.  Please see further down below.
+
+== Documentation ==
+We tag the documentation for each release so you always have a good point in time reference, please find below links to Reference documentation for this branch
+
+ * [ReferenceInstallGuide_0_5 Install Guide]
+ * [ReferenceConfigurationGuide_0_5 Configuration Reference]
+ * [ReferenceConstructingReplies_0_5 Constructing Replies]
+ * [ReferenceInfoAboutRequests_0_5 About Requests]
+ * [ReferenceStatistics Statistics]
+ * [ReferenceGeoIP_0_5 GeoIP]
+ * [ReferenceRubyExtensions_0_5 Ruby Extensions]
+
+== Upgrading ==
+Upgrading should be simplest with the RPM, the major change is a few more config options, a cronjob and some extra files.
+
+=== Source Installs ===
+TODO
+
+=== RPM Installs ===
+The RPM should cleanly upgrade using just _rpm -Uvh ruby-pdns-0.5.el5.noarch.rpm_
+
+=== Configuration ===
+This release requires you to make changes to your config file, for a full reference of the config file please see [ReferenceConfigurationGuide_0_5 Configuration Reference], the config changes in this release are:
+
+ * To keep stats use the _recordstats_ option
+ * Statistics gets written to a directory, configure it with the _stats_dir_ option.
+
+== Changelog ==
+ * Add stats per record for usage count and time spent processing records [http://code.google.com/p/ruby-pdns/issues/detail?id=2 #2]
