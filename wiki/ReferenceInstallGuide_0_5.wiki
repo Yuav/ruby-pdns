@@ -1,5 +1,5 @@
 ﻿#summary Installation Guide
-#labels Phase-Historical,Deprecated                                                                                                                                     
+#labels Phase-Historical,Deprecated
 
 = Installing Ruby PDNS =
 == Overview ==
@@ -48,7 +48,14 @@ You can install using the rubygem provided, if we do not provide packages for yo
  * Install once you've met all the listed requirements above simply install the gem using _gem install --bindir /usr/sbin install ruby-pdns-0.4.1.gem_
  * Unfortunately as a packaging system RubyGems is just barely functional so you need to do some hand work:
    * Create the directory _/var/log/pdns_ and set ownership to _pdns:pdns_
+   * Create the directory _/var/log/pdns/stats_ and set ownership to _pdns:pdns_
    * Create the directory _/etc/pdns/records_ 
+
+Create the stats cronjob in _/etc/cron.d/rubypdns_:
+
+{{{
+*/5 * * * *  pdns /usr/sbin/pdns-aggregate-stats.rb --config /etc/pdns/pdns-ruby-backend.cfg
+}}}
 
 *Note:* The configuration instructions below assume you have the default config file in _/etc/pdns_ if you install with the gem samples will be in your rubygems directories you'll need to either start a new config file on your own or grab them from there, see _gem contents ruby-pdns_ for the locations.
 
