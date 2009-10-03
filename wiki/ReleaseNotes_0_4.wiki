@@ -1,5 +1,5 @@
-#summary Release Notes for 0.4
-#labels Phase-Deploy,Featured
+﻿#summary Release Notes for 0.4
+#labels Phase-Historical,Deprecated                                                                                                                                     
 
 = Introduction =
 We're pleased to announce release 0.4 of Ruby PDNS.
