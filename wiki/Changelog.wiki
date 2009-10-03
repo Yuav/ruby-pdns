@@ -3,6 +3,12 @@
 
 == 0.5 - =
 Release focus: Feature Enhancement
+
+Release Candidates: rc1 - 2009/10/xx, Release Notes: [ReleaseNotes_0_5]
+
+ ||[ReferenceConstructingReplies_0_5 Constructing Replies]||[ReferenceStatistics_0_5 Statistics]||||[ReferenceInfoAboutRequests_0_5 About Requests]||[ReferenceGeoIP_0_5 GeoIP]||
+ ||[ReferenceRubyExtensions_0_5 Ruby Extensions]||||[ReferenceConfigurationGuide_0_5 Configuration Reference]||[ReferenceInstallGuide_0_5 Install Guide]||
+
  * Add stats per record for usage count and time spent processing records [http://code.google.com/p/ruby-pdns/issues/detail?id=2 #2]
 
 == 0.4 - 2009/08/30 = 
