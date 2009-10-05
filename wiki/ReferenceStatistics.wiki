@@ -40,9 +40,11 @@ A script is provided to extract stats from the aggregate data, you can simply ru
 
 {{{
 # /usr/sbin/pdns-get-stats.rb --record ruby-pdns-totals
-usagecount:30 totaltime:0.00759959220886231
+usagecount:30 totaltime:0.00759959220886231 averagetime:0.0002533
+# /usr/sbin/pdns-get-stats.rb --usec --record ruby-pdns-totals
+usagecount:30 totaltime:7599 averagetime:253
 # /usr/sbin/pdns-get-stats.rb --record your.domain.com
-usagecount:10 totaltime:0.00123
+usagecount:10 totaltime:0.00123 averagetime:0.00123
 }}}
 
 You can use this script via [http://nagios.sourceforge.net/docs/3_0/addons.html NRPE] or SNMP for inclusion in any stats system you choose.  For a sample of using NRPE from Cacti see the [PDNSCactiGraphs Cacti Graphs we provide for PDNS].
