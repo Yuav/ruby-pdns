@@ -10,6 +10,7 @@ Release Candidates: rc1 - 2009/10/03, Release Notes: [ReleaseNotes_0_5]
  ||[ReferenceRubyExtensions_0_5 Ruby Extensions]||||[ReferenceConfigurationGuide_0_5 Configuration Reference]||[ReferenceInstallGuide_0_5 Install Guide]||
 
  * Add stats per record for usage count and time spent processing records [http://code.google.com/p/ruby-pdns/issues/detail?id=2 #2]
+ * Unknown config lines still crash the runner [http://code.google.com/p/ruby-pdns/issues/detail?id=27 #27]
 
 == 0.4 - 2009/08/30 = 
 Release focus: Stability and Robustness.
