@@ -1,7 +1,7 @@
-#summary Release history
+﻿#summary Release history
 #labels Phase-Implementation
 
-== 0.5 - =
+== 0.5 - 2009/10/05 =
 Release focus: Feature Enhancement
 
 Release Candidates: rc1 - 2009/10/03, Release Notes: [ReleaseNotes_0_5]
