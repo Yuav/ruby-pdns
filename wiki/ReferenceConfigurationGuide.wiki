@@ -11,7 +11,7 @@ Comments starting with _#_ and new lines are allowed and will be ignored.
 ||*Option*||*Sample*||*Possible Values*||*Description||
 ||logfile||/var/log/pdns/pipe-backend.log||Any file||Where to write log messages to, for debugging you can use /dev/stderr even||
 ||loglevel||The level to log at||info|error|warn|fatal|debug||Warn is generally a good level to use for production||
-||stats_dir||/var/log/pdns/stats||Any directory writable _pdns_ user||Directory where stats will be written||
+||statsdir||/var/log/pdns/stats||Any directory writable _pdns_ user||Directory where stats will be written||
 ||recordstats||true||true, false||Set to true to keep stats, else false||
 ||records_dir||/etc/pdns/records||Any directory||Where to find _*.prb_ files||
 ||reload_interval||60||Integer numbers||How often in seconds to reload records from _records`_`dir_||
@@ -36,8 +36,8 @@ A sample file can be seen below
 logfile = /var/log/pdns/pipe-backend.log
 loglevel = info
 records_dir = /etc/pdns/records
-stats_dir = /var/log/pdns/stats
-keepstats = true
+statsdir = /var/log/pdns/stats
+recordstats = true
 soa_contact = dns-admin.foo.net
 soa_nameserver = ns1.foo.net
 reload_interval = 60
@@ -45,7 +45,6 @@ keep_logs = 10
 max_log_size = 1024000
 maint_interval = 60
 geoip.dblocation = /var/lib/GeoIP/GeoIP.dat
-recordstats = yes
 }}}
 
 There are many settings in PowerDNS that can affect the performance and effectiveness of this backend, please see [PDNSConfigurationGuide] for details on those
