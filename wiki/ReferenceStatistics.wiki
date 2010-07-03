@@ -21,7 +21,7 @@ Several components are involved in producing the stats, these are:
 Recording stats is enabled by default, the below two configuration options affect where and if they will get logged.
 
 ||*Option*||*Sample*||*Possible Values*||*Description*||
-||stats_dir||/var/log/pdns/stats||Any directory writable _pdns_ user||Directory where stats will be written||
+||statsdir||/var/log/pdns/stats||Any directory writable _pdns_ user||Directory where stats will be written||
 ||recordstats||true||true, false||Set to true to keep stats, else false||
 ||maint_interval||60||Integer numbers in seconds||How often to run maintenance like dumping stats and clearing caches||
 
